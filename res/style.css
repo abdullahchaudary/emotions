@@ -1,0 +1,35 @@
+/* angry: #df0000 */
+/* disgusted: #00af00 */
+/* fearful: #a900af */
+/* happy: #ffff00 */
+/* neutral: #c7d8c4 */
+/* sad: #4f4f4f */
+/* surprized: #0ff3c2 */
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: black;
+    transition: all .6s ease-in-out;
+    z-index: -2;
+}
+
+#video {
+    width: 50%;
+    height: auto;
+    border-radius: 1.5rem;
+}
+
+canvas {
+    position: absolute;
+}
