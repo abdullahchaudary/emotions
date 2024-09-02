@@ -32,4 +32,5 @@ body {
 
 canvas {
     position: absolute;
+    display: block;
 }
